@@ -1,6 +1,7 @@
 /* global data */
 
 var $car = document.querySelector('img');
+var intervalID = null;
 
 document.addEventListener('keydown', function (event) {
   switch (event.key) {
@@ -19,5 +20,8 @@ document.addEventListener('keydown', function (event) {
     case 'ArrowLeft':
       $car.className = 'west';
       data.orientation = 'west';
+      break;
+    case ' ':
+      intervalID = setInterval(function () {}, 16);
   }
 });
