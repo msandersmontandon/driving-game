@@ -2,5 +2,9 @@
 
 var data = {
   orientation: '',
-  location: ''
+  location: {
+    x: 0,
+    y: 0
+  },
+  speed: 10
 };
