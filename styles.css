@@ -9,4 +9,21 @@ div {
 img {
   width: 100%;
   object-fit: contain;
+  transition: transform 1s;
+}
+
+.east {
+  transform: rotate(0turn);
+}
+
+.south {
+  transform: rotate(0.25turn);
+}
+
+.west {
+  transform: rotate(0.5turn);
+}
+
+.north {
+  transform: rotate(0.75turn);
 }
