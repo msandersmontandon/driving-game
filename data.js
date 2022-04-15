@@ -1,6 +1,6 @@
 /* exported data */
 
 var data = {
-  Orientation: '',
-  Location: ''
+  orientation: '',
+  location: ''
 };
